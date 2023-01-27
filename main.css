@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    background: #333;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+  .logo{
+    align-items: center;
+    margin: 12px 1rem;
+  }
+  .logo strong {
+    color: whitesmoke;
+    font-size: 24px;
+
+
+  }
+  
+  .line {
+    width: 23px;
+    height: 3px;
+    background: #fff;
+    margin: 5px 0;
+  }
+  *{
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+  }
+  
+  .nav-list a {
+    color: rgb(201, 194, 194);
+    text-decoration: none;
+    font-size: 18px;
+
+  }
+  .nav-list a:hover{
+    color: white;
+    transition: .3s;
+  }
+  #logo{
+    color:red;
+  }
+  #services{
+    width:100%;
+    place-content: center;
+  }
+  .intro{    
+    font-size: 34px;
+    width: 100%;
+    height: 700px;
+    background: #333 fixed;
+    padding-left: 40%; 
+    padding-top: 20%;   
+}
+*{
+    margin: 0;
+    color: #fff;
+}
+.cta {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+    transition: 0.3s ease;
+    transition-property: background-color, color;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+.cta:hover{
+    background-color:crimson ;
+
+    scroll-behavior: smooth;
+}
+.services{
+    height: 600px;
+    width: 100%;
+}
+.boxex{
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    background: red;
+    height: 300px;
+    width: 200px;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+    
+
+
+}
+.box p{
+    display: none;
+}
+#Aboutme{
+  background: #333;
+  justify-content: center;
+  width: 100%;
+  height:500px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif ;
+
+}
+.About{
+  display: grid;
+  padding: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 100px;
+}
+.About p {
+  margin-top: 40px;
+
+}
+.louay{
+  display: flex;
+  
+
+}
+.louay img{
+  height: 430px;
+  
+}
+#head{
+  margin-left: 300px;
+  margin-top: 20px;
+}
+
+button{
+  width: 150px;
+  margin-top: 25px;
+  height: 40px;
+  background: none;
+  border: 1px solid rgb(75, 37, 245);
+  cursor: pointer;
+}
+button:hover{
+  background: rgb(75, 37, 245);
+  color: whitesmoke;
+  transition: 0.2s ease-in-out ;
+}
+.signup{
+  background: #333;
+  height: 500px;
+  width: 400px;
+  margin: 60px auto;
+  padding-top: 100px;
+
+
+}
+.form{
+  display: grid;
+}
+input {
+  height: 50px;
+  width: 90%;
+  margin: 10px;
+  border: 1px solid violet;
+  padding-left: 10px;
+}
+#signup{
+  margin: -70px auto ;
+  font-family: 'Montserrat','sans-serif';
+
+}
+.button{
+  display:flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+input {
+  height: 50px;
+  width: 90%;
+  margin: 10px;
+  border: 1px solid violet;
+  padding-left: 10px;
+}
+.signup strong{
+  margin-left: 20px;
+  font-size: smaller;
+  font-family: 'Montserrat', sans-serif;
+}
+.signup button{
+  width: 150px;
+  margin-left: 25px;
+  height: 40px;
+  background: none;
+  border: 1px solid violet;
+  cursor: pointer;
+}
+.signup button:hover{
+  background: violet;
+  color: whitesmoke;
+  transition: 0.2s ease-in-out ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 925px) {
+    .nav-list {
+      display: none;
+    }
+    .hamburger {
+      display: block;
+    }
+    .nav-list.nav-open{
+        display: grid;
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        background: #333;
+        padding-left: 45%;
+        margin-top: 3rem;
+        transition: all 0.4s ease-in-out;
+        transform: translateX(00%);
+
+    }
+    #Aboutme{
+      margin-top: 500px;
+      height: max-content;
+    }
+    
+    
+  }
+  
